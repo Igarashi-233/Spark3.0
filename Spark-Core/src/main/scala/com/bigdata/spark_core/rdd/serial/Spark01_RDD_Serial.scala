@@ -18,7 +18,7 @@ object Spark01_RDD_Serial {
 
         sc.stop()
     }
-    
+
     // 查询对象
     // 类的构造参数其实是类的属性, 构造参数需要进行闭包检测，其实就等同于类进行闭包检测
     class Search(query:String){
